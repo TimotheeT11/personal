@@ -1,0 +1,63 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* STYLING */
+body { /* FLEXBOX */
+  background-color: #0080ff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header, footer {
+  background-color: #333333;
+  color: white;
+  height: 75px;
+}
+
+header { /* FLEXBOX */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+main {
+  background-color: #1034a6;
+  color: white;
+  flex-grow: 1;
+  max-width: 900px;
+  margin: auto;
+}
+
+.main-intro { /* FLEXBOX */
+  display: flex;
+  flex-direction: row;
+}
+
+#img-home-me {
+  width: 300px;
+}
+
+.main-quote > p {
+  text-align: center;
+}
+
+footer { /* FLEXBOX */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-img-social {
+  height: 45px;
+}
