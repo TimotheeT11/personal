@@ -1,2 +1,13 @@
 /* STYLING */
 
+.section-project {
+  background-color: aliceblue;
+  color: black;
+  /* border: 1px solid black; */
+  margin: 20px;
+  padding: 15px;
+}
+
+.section-project > p{
+  padding: 5px;
+}
