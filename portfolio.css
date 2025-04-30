@@ -1,5 +1,10 @@
 /* STYLING */
 
+.img-portfolio {
+  width: 100%;
+  padding: 20px 0;
+}
+
 .section-project {
   background-color: aliceblue;
   color: black;
