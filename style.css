@@ -8,8 +8,8 @@
 /* STYLING */
 body { /* FLEXBOX */
   background-color: #0080ff;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   height: 100vh;
 }
 
@@ -36,19 +36,7 @@ main {
   flex-grow: 1;
   max-width: 900px;
   margin: auto;
-}
-
-.main-intro { /* FLEXBOX */
-  display: flex;
-  flex-direction: row;
-}
-
-#img-home-me {
-  width: 300px;
-}
-
-.main-quote > p {
-  text-align: center;
+  padding: 20px;
 }
 
 footer { /* FLEXBOX */

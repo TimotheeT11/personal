@@ -1,0 +1,19 @@
+/* STYLING */
+
+/* body {
+  display: flex;
+  flex-direction: column;
+} */
+
+.main-intro { /* FLEXBOX */
+  display: flex;
+  flex-direction: row;
+}
+
+#img-home-me {
+  width: 300px;
+}
+
+.main-quote > p {
+  text-align: center;
+}

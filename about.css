@@ -1,0 +1,19 @@
+/* STYLING */
+
+h1 {
+  padding: 20px 0;
+}
+
+.img-about {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.section-interest {
+  padding: 20px 0;
+  border-top: 1px solid grey;
+}
+
+.section-interest > * {
+  padding: 10px 0;
+}
